@@ -1,0 +1,173 @@
+/* {
+  border: 1px red solid;
+}*/
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+#first {
+  background:
+   -webkit-linear-gradient(left, rgba(0,101,255,0.6), rgba(0,255,127,0.6)),
+  url('./pic/deadpoolheader.png')no-repeat;
+  background:
+   -o-linear-gradient(left, rgba(0,101,255,0.6), rgba(0,255,127,0.6)),
+  url('./pic/deadpoolheader.png')no-repeat;
+  background:
+   linear-gradient(to right, rgba(0,101,255,0.6), rgba(0,255,127,0.6)),
+  url('./pic/deadpoolheader.png')no-repeat;
+  background-size: cover;
+  background-position: top center;
+
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.wrapper-extra {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#top-nav {
+  width: 100%;
+  color: white;
+  padding-top: 20px;
+}
+
+#top-nav ul {
+  list-style-type: none;
+  position: relative;
+  top: -45px;
+}
+
+#top-nav ul li {
+  display: inline;
+  float: right;
+  margin-left: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.s60 {
+  width: 60%;
+}
+
+#tag-line {
+  color: white;
+  font-weight: bold;
+}
+
+.poster {
+  margin-top: 100px;
+  padding-bottom: 50px;
+  color: white;
+  position: relative;
+}
+
+#ipad {
+  position: absolute;
+  width: 60%;
+  right: 0;
+  bottom: 60px;
+}
+
+img {
+  width: 500px;
+  height: auto;
+}
+
+.new-movies {
+  background: white;
+  margin-top: 50px;
+}
+
+.new-movie-head {
+  padding-bottom: 10px;
+  padding-left: 7px;
+}
+
+.head {
+  display: inline;
+  margin-right: 30px;
+}
+
+.green {
+  background: -webkit-linear-gradient(left, rgba(0,101,255,1), rgba(0,255,127,1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.new-movie-thumbnail {
+  padding: 0;
+  margin: 0;
+}
+
+.thumb {
+  width: 23%;
+  margin: 0.7%;
+}
+
+.content {
+  height: 550px;
+  position: relative;
+}
+
+.center {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#btn-start {
+  padding: 15px 30px;
+  border-radius: 5px;
+  background: linear-gradient(to right, rgba(0,101,255,1), rgba(0,255,127,1));
+  color: white;
+  font-weight: 800;
+}
+
+.btnwhite {
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.btnGroup {
+  margin-top: 70px;
+  margin-bottom: 150px;
+}
+
+.inline {
+  display: inline;
+}
+
+.footer-inline {
+  list-style-type: none;
+  float: right;
+
+}
+
+.footer-inline li {
+  display: inline;
+  padding-left: 40px;
+  position: relative;
+  top: -15px;
+}
+
+.black {
+  color: black;
+}
